@@ -4,7 +4,7 @@ import csv
 import re
 
 # Base URL of the topic
-base_url = "https://mcqmate.com/topic/computer-networking?page="
+base_url = "https://mcqmate.com/topic/computer-networks"
 
 def extract_topic_name(url):
     match = re.search(r'topic/([^?]+)', url)
